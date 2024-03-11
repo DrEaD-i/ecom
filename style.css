@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Bebas Neue', sans-serif; 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.search-form {
+    display: flex;
+}
+
+.search-form input[type="text"] {
+    padding: 5px;
+    width: 200px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.skateboard-gallery {
+    margin-top: 20px;
+}
+
+.skateboard-item {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.skateboard-item img {
+    height: 300px;
+    width: auto;
+    border: 2px solid #333;
+}
+
+.buy-button {
+    padding: 5px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: right;
+    width: 100%;
+    margin-top: auto; 
+}
+
+.board-name {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Adjust layout for smaller screens */
+@media only screen and (max-width: 600px) {
+    .skateboard-item {
+        width: 100%;
+    }
+}
+a:link,
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
